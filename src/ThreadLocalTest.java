@@ -20,7 +20,7 @@ public class ThreadLocalTest {
     }
     
     /*
-     * SimpleDateFormat is the immutable class and shared resource which has to be synchronized
+     * SimpleDateFormat is the mutable class and shared resource which has to be synchronized
      * while performing format method call.   
      * So better give new instance of SimpleDateFormat for each thread, so that 
      * format method will be called on only one thread which owns SimpleDateFormat instance. 
