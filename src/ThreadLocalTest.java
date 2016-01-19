@@ -4,7 +4,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.UUID;
 
-
+/**
+ * Read http://stackoverflow.com/questions/817856/when-and-how-should-i-use-a-threadlocal-variable/34042362#34042362
+ */
 public class ThreadLocalTest {
 
     public static void main(String args[]) throws IOException {
